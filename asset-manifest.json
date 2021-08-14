@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/foodtrack/static/css/main.ae0ceac3.chunk.css",
+    "main.css": "/foodtrack/static/css/main.8249dc65.chunk.css",
     "main.js": "/foodtrack/static/js/main.579a6edc.chunk.js",
     "main.js.map": "/foodtrack/static/js/main.579a6edc.chunk.js.map",
     "runtime-main.js": "/foodtrack/static/js/runtime-main.6ba7525a.js",
@@ -8,13 +8,13 @@
     "static/js/2.a5c363ec.chunk.js": "/foodtrack/static/js/2.a5c363ec.chunk.js",
     "static/js/2.a5c363ec.chunk.js.map": "/foodtrack/static/js/2.a5c363ec.chunk.js.map",
     "index.html": "/foodtrack/index.html",
-    "static/css/main.ae0ceac3.chunk.css.map": "/foodtrack/static/css/main.ae0ceac3.chunk.css.map",
+    "static/css/main.8249dc65.chunk.css.map": "/foodtrack/static/css/main.8249dc65.chunk.css.map",
     "static/js/2.a5c363ec.chunk.js.LICENSE.txt": "/foodtrack/static/js/2.a5c363ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6ba7525a.js",
     "static/js/2.a5c363ec.chunk.js",
-    "static/css/main.ae0ceac3.chunk.css",
+    "static/css/main.8249dc65.chunk.css",
     "static/js/main.579a6edc.chunk.js"
   ]
 }
