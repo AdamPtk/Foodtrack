@@ -11,4 +11,4 @@ Tools & technologies:
 
 ### Check it out here:
 
-<a href="https://adamptk.github.io/give-away"><img src="public/GiveAway.png" alt="GiveAway" /></a>
+<a href="https://adamptk.github.io/foodtrack"><img src="public/FoodTrack.png" alt="FoodTrack" /></a>
