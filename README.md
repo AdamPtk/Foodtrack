@@ -1,4 +1,6 @@
-# FoodTrack
+# FoodTrack 
+
+### In progress...
 
 Recipes searching app filtering by basic grocery products and origin region. Functionality of adding recipes as favourite.
 
