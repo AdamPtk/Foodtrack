@@ -17,7 +17,7 @@ const Recipe = () => {
                 <button onClick={handleShowRecipe}>Check this out!</button>
                 <i class="far fa-heart"></i>
             </div>
-        }) : <h1>No ingredients like this</h1>}
+        }) : <h1>No matching results</h1>}
     </>
 }
  
