@@ -1,11 +1,11 @@
-import Recipe from "./Recipe"
+import Recipes from "./Recipe"
 
 const Results = () => {
     return (
         <div className="results">
             <h1>Your results:</h1>
             <div className="wrapper">
-                <Recipe />
+                <Recipes />
             </div>
         </div>
     );

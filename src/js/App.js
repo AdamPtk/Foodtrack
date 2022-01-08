@@ -45,7 +45,6 @@ function App() {
   }, [keyCountry])
 
   const handleOnClick = (e) => {
-
         setKeyCountry(e.target.value)
         setKeyIngredient("")
   }
