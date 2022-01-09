@@ -1,7 +1,14 @@
 html {
     &::-webkit-scrollbar {
-        width: 5px;
+        width: 10px;
     }
+
+    &::-webkit-scrollbar-track {
+        border: 1px solid $third-color;
+        background: $background-color;
+        box-shadow: inset 0 0 4px $third-color;
+    }
+
     &::-webkit-scrollbar-thumb {
         background: $third-color;
         border-radius: 5px;
@@ -16,11 +23,23 @@ html {
     align-items: center;
 }
 
-.content {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+.form-wrapper {
+    background-image: url('../assets/header_bg.jpg');
+    background-position: 50% 45%;
+    width: 100%;
+    position: relative;
+    &::after {
+        content: '';
+        display: block;
+        background: $background-color;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
 }
 
 nav {
@@ -28,7 +47,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
-    min-width: 1000px;
+    width: 80vw;
+    margin: 0 auto;
     h1 {
         font-size: 30px;
         font-family: 'Permanent Marker', cursive;
@@ -54,6 +74,10 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1000px;
+    margin: 10px auto 40px;
+    position: relative;
+    z-index: 10;
     h1 {
         font-size: 40px;
         font-weight: 300;
@@ -64,6 +88,7 @@ form {
     #mainInput {
         outline: none;
         width: 30vw;
+        min-width: 250px;
         font-size: 1rem;
         font-family: "Roboto";
         color: $secondary-color;
@@ -102,6 +127,7 @@ form {
 }
 
 .results {
+    max-width: 80vw;
     h1 {
         font-size: 30px;
         font-weight: 300;
@@ -161,6 +187,7 @@ form {
         }
         .popup {
             position: fixed;
+            z-index: 9999;
             width: 60vw;
             max-height: 90vh;
             overflow-y: scroll;

@@ -66,16 +66,16 @@ function App() {
     <HashRouter>
       <div className="app">
         <Nav />
-        <div className="content">
           <Switch>
             <Route exact path="/">
-              <Form keyIngredient={keyIngredient} onSearch={e => handleOnChange(e)} onClick={e => handleOnClick(e)}/>
-              <Results onAdd={handleSelectYourRecipe}/>
+              <div className="form-wrapper">
+                <Form keyIngredient={keyIngredient} onSearch={e => handleOnChange(e)} onClick={e => handleOnClick(e)}/>
+              </div>
+                <Results onAdd={handleSelectYourRecipe}/>
             </Route>
             <Route path="/yourrecipes" component={YourRecipes} />
             <Route component={NotFound} />
           </Switch>
-        </div>
       </div>
     </HashRouter>
     </AppContext.Provider>
