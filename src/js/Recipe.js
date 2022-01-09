@@ -25,7 +25,7 @@ const Recipes = () => {
                 </div>
             )
         }) : <h1>No matching results</h1>}
-        {showPopUp  && <PopUp id={choosenRecipeId}/>}
+        {showPopUp  && <PopUp id={choosenRecipeId} setShowPopUp={setShowPopUp}/>}
     </>
 }
  

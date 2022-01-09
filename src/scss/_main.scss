@@ -1,3 +1,12 @@
+html {
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $third-color;
+        border-radius: 5px;
+    }
+}
 .app {
     background-color: $background-color;
     width: 100%;
@@ -153,6 +162,8 @@ form {
         .popup {
             position: fixed;
             width: 60vw;
+            max-height: 90vh;
+            overflow-y: scroll;
             border-radius: 5px;
             top: 50%;
             left: 50%;
@@ -160,6 +171,13 @@ form {
             background: rgba(215, 255, 241, 0.95);
             border: 1px solid $third-color;
             color: $third-color;
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+            &::-webkit-scrollbar-thumb {
+                background: $third-color;
+                border-radius: 5px;
+            }
 
             h1 {
                 text-align: center;
@@ -201,7 +219,7 @@ form {
             }
             main {
                 width: 80%;
-                margin: 20px auto;
+                margin: 20px auto 30px;
                 p {
                     margin-bottom: 10px;
                 }

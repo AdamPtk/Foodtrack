@@ -1,17 +1,14 @@
 import { useState, useEffect } from "react";
 
-const PopUp = ({id}) => {
+const PopUp = ({id, setShowPopUp}) => {
     const [choosenRecipe, setChoosenRecipe] = useState(null);
     
     useEffect(() => {
         fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`)
         .then(res => res.json())
-        .then(data => {
-            setChoosenRecipe(data.meals[0])
-            console.log(data.meals[0])
-        })
+        .then(data => setChoosenRecipe(data.meals[0]))
         .catch(err => console.warn(err))
-    }, [])
+    }, [id])
 
     const ingredientsList = () => {
         let ingrArr = [];
@@ -42,7 +39,7 @@ const PopUp = ({id}) => {
     } else {
         return (
             <div className="popup">
-                <i className="fas fa-times"></i>
+                <i className="fas fa-times" onClick={() => setShowPopUp(false)}></i>
                 <h1>{choosenRecipe.strMeal}</h1>
                 <div className="recipe-header">
                     <img src={choosenRecipe.strMealThumb} alt="MealImg" />
@@ -61,7 +58,7 @@ const PopUp = ({id}) => {
                 </div>
                 <main>
                     <p>{choosenRecipe.strInstructions}</p>
-                    <a href={choosenRecipe.strYoutube} target="_blank">Youtube link<i class="fas fa-arrow-right"></i></a>
+                    <a href={choosenRecipe.strYoutube} target="_blank">Youtube link<i className="fas fa-arrow-right"></i></a>
                 </main>
             </div>
         );
