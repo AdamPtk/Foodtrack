@@ -153,18 +153,26 @@ form {
         .popup {
             position: fixed;
             width: 60vw;
-            height: 80vh;
             border-radius: 5px;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: $background-color;
-            opacity: 0.95;
+            background: rgba(215, 255, 241, 0.95);
             border: 1px solid $third-color;
-            image {
-                width: 20%;
+            color: $third-color;
+
+            h1 {
+                text-align: center;
+                &::after {
+                    content: '';
+                    display: block;
+                    background: $third-color;
+                    width: 80%;
+                    height: 0.5px;
+                    margin: 10px auto 0;
+                }
             }
-            i {
+            .fa-times {
                 position: absolute;
                 right: 10px;
                 top: 10px;
@@ -172,6 +180,37 @@ form {
                 font-size: 20px;
                 padding: 10px;
                 cursor: pointer;
+            }
+            .recipe-header {
+                display: flex;
+                width: 80%;
+                margin: 0 auto;
+                img {
+                    width: 30%;
+                    border-radius: 5px;
+                    box-shadow:  0 0 5px 1px $third-color;
+                }
+                .ingredients {
+                    display: flex;
+                    margin-left: 50px;
+                    ul:nth-child(2) {
+                        text-align: right;
+                        margin-left: 20px;
+                    }
+                }
+            }
+            main {
+                width: 80%;
+                margin: 20px auto;
+                p {
+                    margin-bottom: 10px;
+                }
+                a {
+                    color: $third-color;
+                }
+                .fa-arrow-right {
+                    margin-left: 5px;
+                }
             }
         }
     }
