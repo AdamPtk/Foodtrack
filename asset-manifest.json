@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/foodtrack/static/css/main.6b826f9f.chunk.css",
-    "main.js": "/foodtrack/static/js/main.a1963ea6.chunk.js",
-    "main.js.map": "/foodtrack/static/js/main.a1963ea6.chunk.js.map",
+    "main.css": "/foodtrack/static/css/main.53403bb8.chunk.css",
+    "main.js": "/foodtrack/static/js/main.2ee8fdd5.chunk.js",
+    "main.js.map": "/foodtrack/static/js/main.2ee8fdd5.chunk.js.map",
     "runtime-main.js": "/foodtrack/static/js/runtime-main.6ba7525a.js",
     "runtime-main.js.map": "/foodtrack/static/js/runtime-main.6ba7525a.js.map",
     "static/js/2.bb7efb0b.chunk.js": "/foodtrack/static/js/2.bb7efb0b.chunk.js",
     "static/js/2.bb7efb0b.chunk.js.map": "/foodtrack/static/js/2.bb7efb0b.chunk.js.map",
     "index.html": "/foodtrack/index.html",
-    "static/css/main.6b826f9f.chunk.css.map": "/foodtrack/static/css/main.6b826f9f.chunk.css.map",
+    "static/css/main.53403bb8.chunk.css.map": "/foodtrack/static/css/main.53403bb8.chunk.css.map",
     "static/js/2.bb7efb0b.chunk.js.LICENSE.txt": "/foodtrack/static/js/2.bb7efb0b.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/foodtrack/static/media/header_bg.6b77114e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6ba7525a.js",
     "static/js/2.bb7efb0b.chunk.js",
-    "static/css/main.6b826f9f.chunk.css",
-    "static/js/main.a1963ea6.chunk.js"
+    "static/css/main.53403bb8.chunk.css",
+    "static/js/main.2ee8fdd5.chunk.js"
   ]
 }
