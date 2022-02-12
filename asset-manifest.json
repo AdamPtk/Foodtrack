@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/foodtrack/static/css/main.53403bb8.chunk.css",
-    "main.js": "/foodtrack/static/js/main.2ee8fdd5.chunk.js",
-    "main.js.map": "/foodtrack/static/js/main.2ee8fdd5.chunk.js.map",
+    "main.js": "/foodtrack/static/js/main.677916ee.chunk.js",
+    "main.js.map": "/foodtrack/static/js/main.677916ee.chunk.js.map",
     "runtime-main.js": "/foodtrack/static/js/runtime-main.6ba7525a.js",
     "runtime-main.js.map": "/foodtrack/static/js/runtime-main.6ba7525a.js.map",
     "static/js/2.bb7efb0b.chunk.js": "/foodtrack/static/js/2.bb7efb0b.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.6ba7525a.js",
     "static/js/2.bb7efb0b.chunk.js",
     "static/css/main.53403bb8.chunk.css",
-    "static/js/main.2ee8fdd5.chunk.js"
+    "static/js/main.677916ee.chunk.js"
   ]
 }
