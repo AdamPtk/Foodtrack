@@ -127,7 +127,7 @@ form {
 }
 
 .results {
-    max-width: 80vw;
+    width: 80vw;
     h1 {
         font-size: 30px;
         font-weight: 300;
@@ -189,6 +189,7 @@ form {
             position: fixed;
             z-index: 9999;
             width: 60vw;
+            min-height: 20vh;
             max-height: 90vh;
             overflow-y: scroll;
             border-radius: 5px;
@@ -231,7 +232,7 @@ form {
                 width: 80%;
                 margin: 0 auto;
                 img {
-                    width: 30%;
+                    width: 40%;
                     border-radius: 5px;
                     box-shadow:  0 0 5px 1px $third-color;
                 }

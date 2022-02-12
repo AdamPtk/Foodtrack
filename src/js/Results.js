@@ -1,4 +1,4 @@
-import Recipes from "./Recipe"
+import Recipes from "./Recipes"
 
 const Results = () => {
     return (
